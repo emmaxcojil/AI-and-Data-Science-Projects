@@ -1,0 +1,7 @@
+Step 1 - open training.py and chatbot.py in pycharm
+Step 2 - run training.py
+Step 3 - run chatbot.py
+Step 4 - Follow prompts/enter messages when prompted
+Step 5 - To end the program select stop chatbot in pycharm
+
+Group members: Lucas Afolabi, Orume Excel Akporotu, Edafeoghene Etejere, Sarah Longbottom & Emmanuel Ughoo

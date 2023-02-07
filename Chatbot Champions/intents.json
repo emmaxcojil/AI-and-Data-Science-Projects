@@ -1,0 +1,250 @@
+{"intents":  [
+  {"tag":   "greetings",
+  "patterns":["hello","hey","hi", "good day", "greetings", "what's up?", "how far", "how are you doing?", "hey there",
+    "hi hi", "good morning","good afternoon", "good evening"],
+    "responses": ["Hello, welcome to Solent Student support services, how may I assist you today?",
+    "Hi, how may I help?"]},
+
+  {"tag": "greetings in spanish",
+  "patterns": ["hola", "oye", "buenos dias", "buena tarde", "como estas"],
+     "responses": ["Hola, bienvenido a los servicios de apoyo de la Universidad de Solent, ¿cómo puedo ser útil?", 
+     "Hola, ¿cómo puedo ayudar?"]},
+
+  {"tag": "card replacement",
+    "patterns": ["I need a replacement campus card?", "I lost my student ID card and i need to replace it",
+           "I need to get a replacement for my lost student card", "kindly direct me how to replace my student campus card",
+           "I lost my student identification card and need a replacement", "how can I replace my campus card",
+      "replacement campus card", "replace my student id card"],
+         "responses": ["To replace a lost or damaged card, please order a new one using this link: https://eshop.solent.ac.uk/product-catalogue/student-services/student-hub-funding-services"]},
+    
+  {"tag": "card replacement in spanish",
+    "patterns": ["Necesito una tarjeta de campus de reemplazo", 
+            "Perdí mi tarjeta de identificación de estudiante y necesito reemplazarla", "Necesito obtener un reemplazo para mi tarjeta de estudiante perdida",
+            "tenga la amabilidad de indicarme cómo reemplazar mi tarjeta de campus de estudiante", 
+            "Perdí mi tarjeta de identificación de estudiante y necesito un reemplazo"],
+          "responses": ["Para reemplazar una tarjeta perdida o dañada, solicite una nueva utilizando este enlace: https://eshop.solent.ac.uk/product-catalogue/student-services/student-hub-funding-services"]},
+
+
+  {"tag": "well-being",
+         "patterns": ["I would like to book a time to talk a student adviser", "I need advice, who can help",
+           "I will need a student support personnel", "I want  to speak with a student support officer",
+         "I need help from student advice team", "how do I book time to speak with an adviser in the hub",
+           "I need to speak with someone in the student hub", "how do I speak with someone in the student hub",
+           "I need some help"],
+         "responses": ["If you need a student advisor please email student.hub@solent.ac.uk"]},
+
+  {"tag": "well-being in spanish",
+          "patterns": ["Me gustaria reservar un tiempo para hablar con una consejera estudiantil", "Necesito consejo, quien me puede ayudar",
+            "Necesitare un personal de apoyo estudiantil", "Quiero hablar con un oficial de apoyo estudiantil", 
+            "Necesito ayuda del equipo de asesoramiento estudiantil"],
+          "responses": ["Si necesita un asesor estudiantil, envie un correo electronico student.hub@solent.ac.uk"]},
+
+
+  {"tag": "Extenuating Circumstances",
+         "patterns": ["I need more time to submit my assessment, what do i do",
+           "where can i request an assessment submission extension", "I need an extension for my assignment submission",
+           "how can i get more time to submit my assignment", "I've been unwell and can't submit my work",
+           "how do i apply for extenuation for my assessment", "I can't submit my work on time"],
+         "responses": ["To apply for an extension or to defer an assessment to the next available opportunity, visit https://students.solent.ac.uk/studying/attendance-monitoring/extenuating-circumstances"]},
+
+  {"tag": "Extenuating Circumstances in spanish",
+          "patterns": ["Necesito mas tiempo para enviar mi evaluacion, que hago?", "Donde puedo solicitar una extension de envio de evaluacion?", 
+          "Necesito extension para la entrega de mi tarea", "Como puedo obtener mas tiempo para enviar mi tarea?", "Como solicito una atenuacion para mi evaluacion?"],
+          "responses": ["Para solicitar una extensión o diferir una evaluación para la próxima oportunidad disponible, visite https://students.solent.ac.uk/studying/attendance-monitoring/extenuating-circumstances"]},
+   
+          
+  {"tag": "letters",
+         "patterns": ["I need a letter confirming I am a student", "i need student confirmation letter",
+           "where can i get a letter that confirms i am a student", "how can i get a letter confirming i'm a student",
+           "direction to get student confirmation letter", "I need a letter for my bank", "I need a letter for council tax"],
+         "responses": ["You can get a letter to confirm you're a student using the following link: https://to-whom-it-may-concern.app.solent.ac.uk"]},
+
+   {"tag": "letters in spanish",
+          "patterns": ["Necesito una carta que confirme que soy estudiante", "Necesito carta de confirmación de estudiante",
+          "Dónde puedo obtener una carta que confirme que soy estudiante?", "Cómo puedo obtener una carta de confirmación de estudiante?",
+          "dirección para obtener la carta de confirmación del estudiante"],
+          "responses": ["Puede obtener una carta para confirmar que es un estudiante utilizando el siguiente enlace: https://to-whom-it-may-concern.app.solent.ac.uk"]},
+          
+          
+  {"tag": "course enrolment",
+         "patterns": ["I need help enrolling on my course", "i am a new student and i want to register my courses",
+           "where can i go to register my courses", "how can i enrol my new courses"],
+         "responses": ["For new students contact Admissions team on admissions@solent.ac.uk or 023 8201 5066. If you're a returning student please use the Student Registration app for course registration, if you have any queries about this please contact Student Registry on student.registry@solent.ac.uk or 023 8201 5023 "]},
+
+   {"tag": "course enrolment in spanish",
+          "patterns": ["Necesito ayuda para inscribirme en mi curso", "soy un estudiante nuevo y quiero registrar mis cursos",
+          "donde puedo ir para registrar mis cursos", "como puedo inscribir mis nuevos cursos"],
+          "responses": ["Para nuevos estudiantes, comuníquese con el equipo de Admisiones en admissions@solent.ac.uk or 023 8201. Si es un estudiante que regresa, use la aplicación de registro de estudiantes para registrarse en el curso, si tiene alguna consulta al respecto, comuníquese con el registro de estudiantes en student.registry@solent.ac.uk o 023 8201 5023"]},
+          
+          
+  {"tag": "mental health",
+         "patterns": ["I'm worried about my mental health, what can i do", "I'm struggling with my mental health",
+           "What mental health support do you offer", "I have personal issues affecting my mental health",
+           "How do I book an appointment with a mental health adviser", "I would like to book an appointment with a mental health adviser",
+           "I need a counsellor", "I cannot attend the mental health appointment I have booked"],
+         "responses": ["To book an appointment with someone in the mental health team please complete the self-referral form on the following page, https://students.solent.ac.uk/student-hub/mental-health-support, this page also contains information about self-help resources and contact details for the Therapy and Mental Health team"]},
+
+  {"tag": "mental health in spanish",
+          "patterns": ["Estoy preocupado por mi salud mental, qué puedo hacer?", "Qué apoyo de salud mental ofrecen?",
+          "Tengo problemas personales que afectan mi salud mental", "Cómo reservo una cita con un asesor de salud mental?", 
+          "Me gustaría reservar una cita con un asesor de salud mental", "Necesito un consejero", "No puedo asistir a la cita de salud mental que he reservado"],
+          "responses": ["Para reservar una cita con alguien del equipo de salud mental, complete el formulario de autorreferencia en la página siguiente, https://students.solent.ac.uk/student-hub/mental-health-support, esta página también contiene información sobre recursos de autoayuda y datos de contacto del equipo de Terapia y Salud Mental"]},
+          
+          
+  {"tag":   "Student Loans",
+     "patterns":["How do I apply for a student loan?","Who should I contact if I have a problem with my student loan?",
+    "payment terms"],
+    "responses": ["For student loan issues we recommend phoning your student funding body directly or email student.funding@solent.ac.uk"]},
+
+  {"tag": "Student Loans in Spanish",
+      "patterns": ["Cómo solicito un préstamo para estudiantes?", "A quién debo contactar si tengo un problema con mi préstamo estudiantil?", 
+      "términos de pago"],
+      "responses": ["Para problemas de préstamos estudiantiles, recomendamos llamar a su organismo de financiación estudiantil directamente o enviar un correo electrónico student.funding@solent.ac.uk"]},
+
+
+  {"tag":   "Bursaries, Grants and Scholarships",
+  "patterns":["What University support grants are there?","What University bursaries grants are there?",
+    "What scholarship opportunities are available?", "Can I get the University Bursary and Academic Merit Scholarship",
+    "Am I eligible for Bursary?", "How do I apply for a scholarship", "How do I apply for a bursary"],
+    "responses": ["For information about scholarships, bursaries or grants, visit https://www.solent.ac.uk/finance/grants-bursaries-scholarships/scholarships"]},
+
+  {"tag": "Bursaries, Grants and Scholarships in Spanish",
+    "patterns": ["Qué becas de apoyo a la Universidad hay?", "Qué becas universitarias hay?", "Qué oportunidades de becas están disponibles?",
+    "Can I get the University Bursary and Academic Merit Scholarship", "Soy elegible para una beca?"],
+    "responses": ["Para obtener información sobre becas, ayudas o subvenciones, visite https://www.solent.ac.uk/finance/grants-bursaries-scholarships/scholarships"]},
+    
+
+  {"tag":   "academic results",
+   "patterns":["I have defer or refer listed on my results what does this mean?",
+    "I have a Proceed with deficit as an end of year result after the resit period what does this mean?",
+    "I'm in my final year and need help understanding how my degree is calculated",
+     "I need help calculating my results", "How do i calculate my result", "I don't understand my results",
+     "I need guidance on how the gradings for results are done, how is my result graded"],
+    "responses": ["All enquiries on calculating academic results can be resolved here https://students.solent.ac.uk/studying/grade-marking-and-classification. If you don't understand your results or are worried about them please speak with an adviser in the Student Hub student.hub@solent.ac.uk"]},
+
+  {"tag":"academic results in spanish",
+    "patterns": ["He aplazado o referido en mis resultados, qué significa esto?", "Tengo un Proceder con déficit como resultado de fin de año después del período de recuperación, ¿qué significa esto?", 
+    "Estoy en mi último año y necesito ayuda para entender cómo se calcula mi título", "Necesito ayuda para calcular mis resultados", 
+    "como calculo mi resultado"],
+    "responses": ["Todas las consultas sobre el cálculo de los resultados académicos se pueden resolver aquí https://students.solent.ac.uk/studying/grade-marking-and-classification. Si no comprende sus resultados o le preocupan, hable con un asesor en Student Hub student.hub@solent.ac.uk"]},
+
+
+  {"tag":   "international support",
+  "patterns": ["i'm an international student and need to speak with someone about my visa", "i need to register with the police, how do a do this",
+  "there is an issue with my BRP card", "i'm an international student and need help with english language",
+    "i need help with my visa", "theres a problem with my visa, can you help", "i need help with my visa",
+    "I need help with my CAS", "What is the process of getting a CAS"],
+    "responses": ["Please visit, https://students.solent.ac.uk/student-hub/international-student-support or contact the international support team on internationalsupport@solent.ac.uk"]},
+
+  {"tag": "international support in spanish",
+   "patterns": ["necesito ayuda con mi visa", "soy un estudiante internacional y necesito hablar con alguien sobre mi visa",
+   "Necesito registrarme con la policía, cómo hago esto?", "hay un problema con mi tarjeta BRP", "soy un estudiante internacional y necesito ayuda con el idioma inglés"],
+   "responses": ["Por favor visita https://students.solent.ac.uk/student-hub/international-student-support o comuníquese con el equipo de soporte internacional en internationalsupport@solent.ac.uk"]},
+   
+   
+  {"tag":   "disability support",
+  "patterns": ["how to I register for disability support", "I have a specific learning disability how can I get support",
+    "how do i arrange exam support", "i have a new diagnosis/disability and need to review support",
+    "i'm autistic where can I get support", "i'm dyslexic and need help"],
+    "responses": ["To register for disability support or help with a specific learning disability visit, https://learn.solent.ac.uk/course/view.php?id=31784&section=0#tabs-tree-start"]},
+
+  {"tag": "disability support in spanish",
+   "patterns": ["cómo me registro para el apoyo por discapacidad", "Tengo una discapacidad de aprendizaje específica, cómo puedo obtener apoyo?",
+   "Cómo organizo el apoyo para el examen?", "tengo un nuevo diagnóstico/discapacidad y necesito revisar el apoyo", "soy autista donde puedo obtener ayuda", "Soy disléxica y necesito ayuda", 
+   "Soy disléxico y necesito ayuda"],
+   "responses": ["Para registrarse para recibir apoyo por discapacidad o ayuda con una visita específica de discapacidad de aprendizaje, https://learn.solent.ac.uk/course/view.php?id=31784&section=0#tabs-tree-start"]},
+
+
+  {"tag": "careers",
+  "patterns": ["What careers support is available for students and graduates",
+    "I need to speak to someone about careers", "How can I find out more about Solent Futures",
+    "I would like to contact Solent Futures", "I am about graduating and will need assistance with securing a job",
+    "I am about graduating and will need assistance with securing employment", "How can I find employment as a graduating student",
+  "I need help with necessary information on getting a job placement", "Where can I do placement as part of my course requirement",
+    "I am looking for a place for placement"],
+    "responses": ["Solent Futures are the careers team here at Solent, they can also help with placements and finding part time work, to find out more information about them and the support they offer please see the following page of the portal https://students.solent.ac.uk/careers"]},
+
+  {"tag": "careers in spanish",
+  "patterns": ["Qué apoyo profesional está disponible para estudiantes y graduados",
+    "Necesito hablar con alguien sobre carreras", "Cómo puedo obtener más información sobre Solent Futures",
+    "Me gustaría contactar con Solent Futures"],
+    "responses": ["Solent Futures es el equipo de carreras aquí en Solent, para obtener más información sobre ellos y el apoyo que ofrecen, consulte la siguiente página del portal https://students.solent.ac.uk/careers"]},
+
+
+  {"tag": "attendance",
+"patterns": ["How can I check my attendance on the school portal", "how can I monitor my attendance for lectures"],
+  "responses": ["The University expects you to attend all of your timetabled teaching sessions. We monitor your attendance. You can get vital information here https://students.solent.ac.uk/studying/attendance-monitoring"]},
+
+
+  {"tag": "timetable",
+"patterns": ["How can I access my timetable", "where can I check my time table"],
+  "responses": ["To check your time table please check this website https://students.solent.ac.uk/studying/student-timetables"]},
+
+
+  {"tag": "finding a course",
+"patterns": ["Which course can I do",
+  "How can I find a course to do", "which courses do you offer",
+  "Can I get a list of courses", "where can I find a catalogue of available course"],
+  "responses": ["To get a catalogue of available courses to study visit https://www.solent.ac.uk/courses?studyLevels=courseUndergraduate and https://www.solent.ac.uk/courses?studyLevels=coursePostgraduate",
+  "If you know broadly which subject you are looking to study but can't decide on a specific course, our subject pages can help you to narrow down your options. https://www.solent.ac.uk/subjects"]},
+
+
+  {"tag": "Accommodation",
+"patterns": ["I am coming to the university soon and need help with accommodation","How can I secure accommodation", "Which student’s accommodations are available"],
+  "responses": ["It’s important that you have accommodation in place before you arrive in Southampton, our Accommodation team can advise about the different types of accommodation available within Southampton the following page has contact details for the team and all the links to this advice https://students.solent.ac.uk/university-life/accommodation"]},
+
+  {"tag": "Accommodation in spanish",
+"patterns": ["Vendré pronto a la universidad y necesito ayuda con el alojamiento.","Cómo puedo asegurar el alojamiento", "Qué alojamientos para estudiantes están disponibles"],
+  "responses": ["Es importante que tenga alojamiento antes de llegar a Southampton, nuestro equipo de alojamiento puede aconsejarle sobre los diferentes tipos de alojamiento disponibles en Southampton. La siguiente página tiene los datos de contacto del equipo y todos los enlaces a este consejo https://students.solent.ac.uk/university-life/accommodation"]},
+
+
+{"tag": "Entry requirements",
+"patterns": ["What are the entry requirements to be admitted into solent university", "Can you help with the basic requirements to be offered an admission in your school","What is required from an international student before admission is given"],
+  "responses": ["We welcome students from all backgrounds and from all over the world. No matter what course you wish to enroll on, follow this link for more information https://www.solent.ac.uk/international/your-country"]},
+
+  {"tag": "Goodbye",
+  "patterns": ["Thanks a lot", "Alright then", "appreciate", "you have done well", "thanks for your support"
+    ,"bye", "goodbye"],
+    "responses": ["Thank you for your enquiry, Bye for now", "Take care, see you again soon","Thank you, always at your service" ]},
+
+   {"tag": "email",
+  "patterns": ["@yahoo.com", "@ymail.com", "@gmail.com", "@ac.uk"],
+    "responses": ["Thank you for your email, a human staff will contact you soon","Your email has been received, someone will respond to you soon"]},
+
+
+  {"tag": "Goodbye in spanish",
+   "patterns": ["Muchas gracias", "Bien entonces", "lo aprecio", "lo has hecho bien", "gracias por su apoyo", 
+   "adiós"],
+   "responses": ["Gracias por su consulta, Adiós por ahora.", "Cuidate, nos vemos pronto", "Gracias, siempre a su servicio."]},
+
+
+  {"tag": "out of scope",
+  "patterns": [
+    "Where can i get food", "whats southampton like", "I want to book onto an open day",
+    "how old is solent university", "why should i go to university","can you tell me about united kingdom"],
+  "responses": [
+    "Sorry this is beyond our scope of service, If you drop your email address here, a human staff would contact you soon or contact us using the relevant team on the following page, https://www.solent.ac.uk/about/contact-us"]},
+  
+  {"tag": "out of scope in spanish",
+   "patterns": ["donde puedo conseguir comida", "cuantos años tiene la universidad de solent", "Por qué debería ir a la universidad?",
+   "me puedes hablar de reino unido"],
+   "responses": ["Lo sentimos, esto está fuera de nuestro alcance de servicio, contáctenos usando el equipo correspondiente en la siguiente página, https://www.solent.ac.uk/about/contact-us"]},
+
+  {"tag": "Name",
+    "patterns": [
+      "what is your name",
+      "What can i call you",
+      "Do you have a name",
+      "What should i refer to you as"],
+    "responses": [
+      "Thank you for asking, my name is Solent Enquiry Bot",
+      "I am happy you asked, my name is Solent Enquiry Bot,"]},
+
+  {"tag": "Name in spanish",
+   "patterns": ["cuál es tu nombre", "Como puedo llamarte", "Tienes un nombre", "Cómo debería referirme a ti"],
+   "responses": ["Gracias por preguntar, mi nombre es Solent Inquiry Bot", "Estoy feliz de que hayas preguntado, mi nombre es Solent Inquiry Bot"]}
+   ]}
+
+
+
+
