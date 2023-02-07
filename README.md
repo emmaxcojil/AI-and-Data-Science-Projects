@@ -11,4 +11,6 @@ DECISION TREES PROJECT: A Decision Tree and Random Forest Machine Learning Model
 
 SVM AND MLPs PROJECT: A Support Vector Machines Learning Algorithm that assisted to accurately predict and separate disease data with 90% accuracy.
 
-UNSUPERVISED LEARNING PCA PROJECT: An unsupervised model using principal component analytic technique for pre-processing purposes in order to understand data and extract patterns
+UNSUPERVISED LEARNING PCA PROJECT: An unsupervised model using principal component analytic technique for pre-processing purposes in order to understand data and extract patterns.
+
+SUPERVISED LEARNING PROJECT: A Supervised Learning Model for Detecting Breast Cancer with 92% accuracy
