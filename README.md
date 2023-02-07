@@ -10,3 +10,5 @@ ML_HOUSE_VALUE_PREDICTOR: A business predicting software that uses supervised ma
 DECISION TREES PROJECT: A Decision Tree and Random Forest Machine Learning Model to predict disease with 97% accuracy.
 
 SVM AND MLPs PROJECT: A Support Vector Machines Learning Algorithm that assisted to accurately predict and separate disease data with 90% accuracy.
+
+UNSUPERVISED LEARNING PCA PROJECT: An unsupervised model using principal component analytic technique for pre-processing purposes in order to understand data and extract patterns
