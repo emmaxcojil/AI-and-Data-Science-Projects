@@ -14,3 +14,5 @@ SVM AND MLPs PROJECT: A Support Vector Machines Learning Algorithm that assisted
 UNSUPERVISED LEARNING PCA PROJECT: An unsupervised model using principal component analytic technique for pre-processing purposes in order to understand data and extract patterns.
 
 SUPERVISED LEARNING PROJECT: A Supervised Learning Model for Detecting Breast Cancer with 92% accuracy
+
+BREAST CANCER PROJECT: A Machine Learning Project where several models were built and measured one against another on several parameters like performance with/without outliers, effects of multicollinear features on performance, performance with optimal features, Accuracy, ROC-AUC, Classification Report, Confusion Matrix Performance etc
