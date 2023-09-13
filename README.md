@@ -16,3 +16,5 @@ UNSUPERVISED LEARNING PCA PROJECT: An unsupervised model using principal compone
 SUPERVISED LEARNING PROJECT: A Supervised Learning Model for Detecting Breast Cancer with 92% accuracy
 
 BREAST CANCER PROJECT: A Machine Learning Project where several models were built and measured one against another on several parameters like performance with/without outliers, effects of multicollinear features on performance, performance with optimal features, Accuracy, ROC-AUC, Classification Report, Confusion Matrix Performance etc
+
+STREAMLIT HEALTH CARE MACHINE LEARNING DASHBORD: A User friendly Dashboard that helps you visualize and manipulate all the stages carried out to build a machine learning project in the healthcare domain. The dashboard also offers the opportunity to make predictions from a user friendly interface
