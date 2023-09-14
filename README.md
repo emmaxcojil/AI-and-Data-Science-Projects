@@ -18,3 +18,5 @@ SUPERVISED LEARNING PROJECT: A Supervised Learning Model for Detecting Breast Ca
 BREAST CANCER PROJECT: A Machine Learning Project where several models were built and measured one against another on several parameters like performance with/without outliers, effects of multicollinear features on performance, performance with optimal features, Accuracy, ROC-AUC, Classification Report, Confusion Matrix Performance etc
 
 STREAMLIT HEALTH CARE MACHINE LEARNING DASHBORD: A User friendly Dashboard that helps you visualize and manipulate all the stages carried out to build a machine learning project in the healthcare domain. The dashboard also offers the opportunity to make predictions from a user friendly interface
+
+CRYPTOCURRENCY DASHBOARD: A cryptocurrency trade platform that helps in predicting cryptocurrency next day, next week, next 60 & 90 days price. It also predicts coins that will follow same trend of increase or decrease
